@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9fa;
+  min-height: 100vh;
+  position: relative;
+}
+
+.App {
+  height: 100%;
+}
+
+.header {
+  background-color: lightgray;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.main {
+  height: 100%;
+}
+
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 5px 15px 5px 15px;
+}
+
+.btn > *:first-child {
+  margin-right: 5px;
+}
+
+.input-id {
+  padding: 5px 15px 5px 15px;
+}
+
+
+/* start of page layout */
+
+.page-layout {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* end of page layout */
+
+/* start of header */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between
+}
+
+.logo-wrapper {
+  padding-left: 15px;
+}
+
+.tos-wrapper {
+  padding-right: 15px;
+
+}
+
+.tos-wrapper > * {
+  margin: 0;
+  color: white;
+}
+
+/* end of header */
+
+/* start verify component */
+
+.content {
+  margin-top: 15rem;
+}
+
+/* end verify component */
+
+
+
+.status-text {
+  text-align: center;
+}
+
+.back-button {
+  margin-top: 5rem;
+}
+
+.employee {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.position {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 600px) {
+   .employee {
+     font-size: 2rem;
+   }
+}
+
+@media screen and (max-width: 600px) {
+  .position {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .employee {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+ .position {
+   font-size: 1.25rem;
+ }
+}
+
+
+
+.ant-card-bordered {
+  border-left: 10px solid lightgray;
+}
+
+.employee-status {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.resign-date {
+  font-size: 1rem
+}
